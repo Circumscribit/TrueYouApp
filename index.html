@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover your true self with our personality transformation tool">
     <title>True You - Find Your Real Self</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,9 +12,9 @@
     <div class="container">
         <p>Ever feel like you were born into the wrong body? The wrong mindset? Find out your true form below.</p>
 
-        <label for="archetype">Choose your Destiny:</label>
+        <label for="archetype">Choose an Archetype:</label>
         <select id="archetype">
-            <option value="random">🎲 Surprise Me</option>
+            <option value="random">🎲 Random</option>
             <option value="alpha_jock">💪 Alpha Muscle Jock</option>
             <option value="himbo">🏋️ Gym Himbo</option>
             <option value="puppy">🐶 Loyal Dumb Puppy</option>
@@ -28,20 +26,7 @@
             <option value="bull">🐗 Dirty Musky Bull</option>
         </select>
 
-        <label for="desired_ethnicity">Preferred Ethnicity:</label>
-        <select id="desired_ethnicity">
-            <option value="random">🎲 Any</option>
-            <option value="Caucasian">👨🏼 Caucasian</option>
-            <option value="Black">👨🏾 Black</option>
-            <option value="Latino">👨🏽 Latino</option>
-            <option value="Asian">👨🏻 Asian</option>
-            <option value="Middle Eastern">👨🏽 Middle Eastern</option>
-            <option value="Mixed">👨🏽 Mixed</option>
-        </select>
-
-        
-
-        <button onclick="generateTrueYou()">Transform Into Your True Self</button>
+        <button onclick="generateTrueYou()">Find Your True You</button>
 
         <h2>Your True Self:</h2>
         <div id="result"></div>
